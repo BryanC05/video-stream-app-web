@@ -1,4 +1,3 @@
-````markdown
 # 🎥 Node.js Video Streaming Server
 
 A lightweight, efficient video streaming server built with Node.js and Express. Unlike standard file servers that download the entire file at once, this application utilizes **Node.js Streams** and **HTTP Range Headers** to deliver video content in chunks, allowing for instant playback and seeking (scrubbing) without high memory consumption.
@@ -62,12 +61,3 @@ Instead of reading the entire file into memory using `fs.readFile` (which would 
 * **Thumbnail Generation:** Auto-generate preview images for the video player.
 * **Multiple Formats:** Add support for `.mkv` and `.webm` containers.
 * **Storage:** Integrate with AWS S3 for cloud storage instead of local disk storage.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-````
-
-### Next Step
-
-Would you like me to explain how to initialize a **Git repository** for this folder so you can actually push this README and your code to GitHub?
